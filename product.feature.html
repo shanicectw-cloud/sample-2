@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<html lang ="en-GB">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Product Feature</title>
+	</head>
+	<style>
+		/* Reset some default spacing */
+		body{
+			margin: 0%;
+			font-family: 'Times New Roman', Times, serif;
+			font-style: normal;
+			background-color: palevioletred;
+		}
+		
+		/* Navigation Bar */
+		nav {
+			background-color: mediumvioletred;
+			padding: 15px;
+		}
+		
+		.nav-container{
+			text-align-last: right;
+			font-size: 12px;
+		}
+		
+		nav a{
+			color: papayawhip;
+			text-decoration: none;
+			margin: 20px;
+			font-weight: bold 100;
+			font-family: Arial, Helvetica, sans-serif;
+			transition: color 0.3 ease;
+		}
+		
+		nav a: hover {
+			color: #f39c12; /* hover color */
+		}
+		
+		/* Product Section */
+		.product-section {
+			display: flex; /* Activates Flexbox */
+			justify-content: center; /* Centre horizontally */
+			align-items: center; /* Centers vertically */
+			height: 900px;
+			background-color: plum;
+			border: 1px solid #ccc
+			}
+		
+		.item{
+			background-color: white;
+			padding: 20px;	/* Box Model-padding */
+			margin: 10px;
+			border: 5px solid #ddd;
+			border-radius: 8px;
+		}
+		
+		h2{
+			
+		}
+		p{
+			font-family: Georgia, 'Times New Roman', Times, serif;	/* change font family */
+			color: ##2c3e50;
+		}
+	</style>
+	<body>
+		<!--Navigation Bar-->
+		<nav>
+			<div class="nav-container">
+				<b><a href="#">Home</a></b>
+				<b><a href="#">Products</a></b>
+				<b><a href="#">Contact</a></b>
+			</div>
+		</nav>
+		<p>
+			<h1><b>Celebrate Brighter with Happy Boom!</b></h1>
+			<p><b>We offer fully licensed, high-quality fireworks designed for safe and stunning celebrations.
+			</b></p>
+			<p><b>With expert advice and value-driven pricing, we make every moment extraordinary.
+			Your celebration deserves the best.
+			</b></p>
+		</p>
+		
+		<!--Produc Section-->
+		<section class="product-section">
+			<div class="item"><img src="https://hunterboom.com/wp-content/uploads/2024/10/LC01-%E5%B0%8F%E7%A0%82%E7%82%AE-01.jpg" width="150"></div>
+			<div class="item"><img src="https://hunterboom.com/wp-content/uploads/2024/10/%E5%BD%A9%E8%89%B2%E5%A4%A7%E7%A0%82%E7%82%AE-POP-POP-BESAR.jpg" width="150"></div>
+			<div class="item"><img src="https://hunterboom.com/wp-content/uploads/2024/10/%E5%9B%9B%E8%89%B2%E8%8A%B1-SUNSET-4-COLOR.jpg" width="150"></div>
+		</section>
+		
+		
+	</body>
+</html>
